@@ -37,8 +37,8 @@
 
                 <ul>
                     <li><a href="{{ route('homepage', ['username' => $username]) }}">Home</a></li>
-                    <li><a href="{{ route('docuroutes', ['username' => $username]) }}">Routes</a></li>
                     <li><a href="{{ route('docuviews', ['username' => $username]) }}">Views</a></li>
+                    <li><a href="{{ route('docuroutes', ['username' => $username]) }}">Routes</a></li>
                     <li><a href="{{ route('doculayout', ['username' => $username]) }}">Layout</a></li>
                     <li><a href="{{ route('documiddleware', ['username' => $username]) }}">Middleware</a></li> 
                     <li><a href="{{ route('contactPage', ['username' => $username]) }}">Contact</a></li>
@@ -68,8 +68,8 @@
                 <ul class="footer__list">
                     <li><a href="{{ route('home') }}" class="footer__link">User</a></li>
                     <li><a href="{{ route('homepage') }}" class="footer__link">Home</a></li>
-                    <li><a href="{{ route('docuroutes') }}" class="footer__link"> Routes Documentation</a></li> 
-                    <li><a href="{{ route('docuviews') }}" class="footer__link"> Views Documentation</a></li> 
+                    <li><a href="{{ route('docuviews') }}" class="footer__link"> Views Documentation</a></li>
+                    <li><a href="{{ route('docuroutes') }}" class="footer__link"> Routes Documentation</a></li>  
                     <li><a href="{{ route('doculayout') }}" class="footer__link"> Layout Documentation</a></li> 
                     <li><a href="{{ route('documiddleware') }}" class="footer__link"> Middleware Documentation</a></li> 
                 </ul>
