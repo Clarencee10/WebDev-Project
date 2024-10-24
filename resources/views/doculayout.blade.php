@@ -112,7 +112,7 @@ Route::get('contact', function () {
             <h2>Applied Work</h2>
             <p>You can explore my practical applications of Laravel layout in my projects. These implementations demonstrate how I've utilized the concepts covered in this documentation:</p>
             <div class="button-container">
-                <a href="https://github.com/Clarencee10/WebDevv.git" target="_blank" class="btn btn-primary">Lab3: Implementation of layout in Laravel</a>
+                <a href="https://github.com/Clarencee10/WD.git" target="_blank" class="btn btn-primary">Lab3: Implementation of layout in Laravel</a>
             </div>
         </section>
 
