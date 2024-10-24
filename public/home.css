@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #a855f7;
+    --primary-color-dark: #9333ea;
+    --secondary-color: #ca8a04;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--extra-light);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(/images/ay.jpg);
+    background-size: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-input {
+    padding: 0.75rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: var(--primary-color-dark);
+    box-shadow: 0 0 5px var(--primary-color-dark);
+  }
+  
+  .submit-btn {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--primary-color-dark);
+  }
